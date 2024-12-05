@@ -33,9 +33,24 @@
         button:hover {
             background-color: #45a049;
         }
+        /* About Page Styling */
+        .about-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #e9f7e7;
+            border-radius: 8px;
+        }
+        ul {
+            line-height: 1.6;
+        }
+        p {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
+
+    <!-- User Form Section -->
     <h1>Welcome to My Simple Node.js Webpage</h1>
     <p>Please enter your name:</p>
     
@@ -43,11 +58,16 @@
         <input type="text" name="name" placeholder="Enter your name" required />
         <button type="submit">Submit</button>
     </form>
-    <h1>How I Built This Page</h1>
-  <br>
-    The first I did was create a javascript server for my html file. What the server does is it takes in a username that is type by the visiter. It is an backend-Framework the that uses javascripts. The difficult part of this was learning how to code in javascript, but since I have a good background in JAVA, it did not take me long to learn enough. 
-  </br> <br>The next step was to download the required frameworks using the terminal. which was fairly simple</br> 
-  <br>The final step, not including making he html file was setting the server up on GitHub</br>
-  
+
+    <!-- About Project Section -->
+    <div class="about-section">
+        <h2>How I Built This Page</h2>
+        <p>The first thing I did was create a JavaScript server for my HTML file. The server takes in a username typed by the visitor. It is a backend framework that uses JavaScript. The difficult part of this was learning how to code in JavaScript, but since I have a good background in Java, it did not take me long to learn enough.</p>
+        
+        <p>The next step was to download the required frameworks using the terminal, which was fairly simple.</p>
+        
+        <p>The final step, not including making the HTML file, was setting the server up on GitHub.</p>
+    </div>
+
 </body>
 </html>
